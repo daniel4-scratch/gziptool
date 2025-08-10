@@ -2,18 +2,6 @@
 
 A command-line utility for creating and extracting custom gzip-based archives containing multiple files.
 
-- **Version:** 1.0.0  
-- **Project URL:** [https://github.com/Daniel4-Scratch/gziptool](https://github.com/Daniel4-Scratch/gziptool)
-
-## Features
-
-- ✅ Archive multiple files into a single gzip file
-- ✅ Extract all files from a custom gzip archive
-- ✅ Auto-naming for quick archiving with timestamps
-- ✅ Auto-extraction based on file detection
-- ✅ Version and project info display
-- ✅ Cross-platform error logging (Windows/Linux)
-
 ## Installation
 
 Download the `gziptool.exe` file and place it in a directory that's in your system PATH, or run it directly from its location.
@@ -148,7 +136,3 @@ dir restored_project
 - Only regular files can be archived (no directory recursion)
 - File paths are stored as filenames only (no directory structure preserved)
 - Custom format not compatible with standard gzip tools
-
----
-
-**gziptool v1.0.0** - Simple, fast, and reliable file archiving.
